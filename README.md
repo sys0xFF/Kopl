@@ -36,7 +36,7 @@ This project primarily utilizes the following Windows API functions:
 
 ### CloseHandle()
 - **Purpose**: Closes an open object handle
-- **Usage**: Always called after `CreateToolhelp32Snapshot()` to prevent memory leaks
+- **Usage**: Must be called after using any WinAPI function that returns a handle (e.g., CreateToolhelp32Snapshot, OpenProcess, CreateFile)  
 - **Function**: Releases system resources associated with the handle
 
 ## How It Works
@@ -80,7 +80,3 @@ This project was built using Visual Studio with the following requirements:
 - Wide character string handling (`std::wstring`)
 - System snapshot manipulation
 
-
-## License
-
-This project is for educational purposes and personal learning of Windows API programming.

@@ -1,0 +1,96 @@
+# Visual Studio files
+.vs/
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+*.vcxproj.user
+
+# Build directories
+x64/
+x86/
+Debug/
+Release/
+bin/
+obj/
+
+# Compiled Object files
+*.obj
+*.o
+*.lo
+
+# Compiled Dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lib
+*.a
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build outputs
+*.iobj
+*.ipdb
+*.pdb
+*.tlog
+*.recipe
+*.lastbuildstate
+*.idb
+*.pch
+
+# IntelliSense database
+*.VC.db
+*.VC.VC.opendb
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# IDE files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Package managers
+packages/
+node_modules/
